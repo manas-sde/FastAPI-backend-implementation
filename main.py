@@ -25,7 +25,7 @@ from typing import List, Optional
 app = FastAPI()
 
 # Creates a MongoClient instance and connects to MongoDB server at the specified URI
-client = MongoClient('mongodb://localhost:27017/')  
+client = MongoClient('mongodb+srv://cosmoDBuser:pswpswcosmo@cluster0.ub2jer1.mongodb.net/test')  
 
 # Selects the database named 'mydatabase' from the MongoClient instance
 db = client['cosmoDB'] 
@@ -46,7 +46,6 @@ class Permission(BaseModel):
     user_id: str
     org_name: str
     role: str
-
 
 
 

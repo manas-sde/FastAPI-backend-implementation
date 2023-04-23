@@ -1,3 +1,8 @@
+## Live Project-API Documentation
+
+The live API documentation is available at the `https://cosmocloud-1-a3471059.deta.app/docs` endpoint.
+
+
 # FastAPI-MongoDB Project
 This is a FastAPI project that uses MongoDB as the database and pymongo as the connector. The project provides REST API endpoints for managing users, organizations, and permissions.
 
@@ -39,9 +44,6 @@ The following endpoints are available:
 
 The `POST /permissions` and `DELETE /permissions` endpoints are designed to allow for bulk creation/updating and deletion of permissions, respectively.
 
-## Live API Documentation
-
-The live API documentation is available at the `/docs` endpoint.
 
 ## Installation
 
